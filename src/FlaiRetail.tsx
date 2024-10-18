@@ -13,7 +13,7 @@ import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 
 const queryClient = new QueryClient();
 
-export const FlaiRetail = () => {
+export const FlaiVendor = () => {
   const colorScheme = useColorScheme();
   const theme = colorScheme === 'dark' ? eva.dark : eva.light;
   const backgroundColor =
@@ -45,3 +45,8 @@ export const FlaiRetail = () => {
     </QueryClientProvider>
   );
 };
+
+/* 
+  Gestor de Estado: Zustand --> in src/presentation/store/auth/useAuthStore
+  ApplicationProvider: 
+*/

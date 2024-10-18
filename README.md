@@ -1,10 +1,14 @@
 This is a **React Native** project designed to work with any Retail Vendor.
 
-# FlaiRetail
+# Flai Vendor
 
 ## Incluye
 
-   . Estado
+   . Estado (Zustand)
+
+   . Routing (Stack Navigation)
+
+   . Http requests: Axios
 
    . Componentes como:
         SafeAreaView
@@ -23,4 +27,7 @@ This is a **React Native** project designed to work with any Retail Vendor.
    . Iconos
    
    . Material 3
+
+
+
 

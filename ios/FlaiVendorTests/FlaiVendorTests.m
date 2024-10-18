@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface FlaiRetailTests : XCTestCase
+@interface FlaiVendorTests : XCTestCase
 
 @end
 
-@implementation FlaiRetailTests
+@implementation FlaiVendorTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

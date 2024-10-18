@@ -3,7 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import {FlaiRetail} from './src/FlaiRetail';
+import {FlaiVendor} from './src/FlaiVendor';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FlaiRetail);
+AppRegistry.registerComponent(appName, () => FlaiVendor);

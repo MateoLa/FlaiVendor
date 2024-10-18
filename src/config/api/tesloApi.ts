@@ -5,7 +5,7 @@ import { StorageAdapter } from '../adapters/storage-adapter';
 
 
 export const API_URL = 
-  (STAGE === 'prod')
+  (STAGE === 'production')
    ? PROD_URL
    : Platform.OS === 'ios'
       ? API_URL_IOS

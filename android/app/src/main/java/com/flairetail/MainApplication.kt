@@ -1,4 +1,4 @@
-package com.flairetail
+package com.flaivendor
 
 import android.app.Application
 import com.facebook.react.PackageList
