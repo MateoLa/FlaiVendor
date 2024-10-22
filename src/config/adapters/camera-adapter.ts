@@ -1,10 +1,7 @@
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 
 
-
-
 export class CameraAdapter {
-
 
   static async takePicture(): Promise<string[]> {
 
@@ -19,7 +16,6 @@ export class CameraAdapter {
     }
 
     return [];
-
   }
 
 
@@ -35,10 +31,6 @@ export class CameraAdapter {
       return response.assets.map( asset => asset.uri! );
     }
 
-
-
     return [];
   }
-
-
 }

@@ -48,5 +48,8 @@ export const FlaiVendor = () => {
 
 /* 
   Gestor de Estado: Zustand --> in src/presentation/store/auth/useAuthStore
-  ApplicationProvider: 
+  UI Library: UI Kitten (ApplicationProvider)
+  NavigationContainer con Theme definido, tomando los colores del applicationProvider (eva).
+  (En modo dark evita el flash blanco al cambiar de pantalla. Se notifica del theme al Stack navigator)
+
 */
